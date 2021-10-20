@@ -1,0 +1,24 @@
+server.port: 8071
+
+spring:
+  mvc:
+    static-path-pattern: /**
+  resources:
+    add-mappings: true
+    cache:
+      period: 3600
+  sbp:
+    runtime-mode: development
+#    runtime-mode: deployment
+    plugins-root: plugins
+    enabled: true
+    lib-directories:
+      - "libs"
+#    auto-start-plugin: false
+    classes-directories:
+      - "target/classes"
+#      - "out/production/classes"
+#      - "out/production/resources"
+#    controller:
+#      base-path: "fr/trouillet"
+
