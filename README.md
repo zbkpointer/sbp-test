@@ -15,4 +15,4 @@
 ，application模块是一个springboot-web应用，plugins亦是且包含两个模块<modules>
 <module>plugina</module>
 <module>pluginb</module>
-</modules>，a、b模块也是springboot-web
+</modules>，a、b模块也是springboot-web。
